@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titlee"><h1>
+        Registration Form
+    </h1></div>
+<div class="form-container">
+<form class="form" id="form">
+   <div class="inputfirst">
+    <label for="">First Name</label>
+    <input type="text"  id="fname">
+    <div class="invalidfname" id="invalidfname">
+       Name length must be less than 10 character
+    </div>
+   </div>
+
+   <div class="inputlast">
+    <label for="">Last Name</label>
+    <input type="text"  id="lname">
+    <div class="invalidlname" id="invalidlname">
+       Name length must be less than 10 character
+    </div>
+</div>
+
+    <div class="inputemail">
+    <label for="">Email</label>
+    <input type="text" id="email">
+    <div class="invalidemail" id="invalidemail">
+        please insert the valid email
+    </div>
+    
+    </div>
+    <div class="inputpass">
+    <label for="">Password</label>
+    <input type="password" id="pass">
+    
+   <div class="invalidpass" id="invalidpass">
+    length must be less than 8 character with uppercase,lowercase,symbols,numbers
+    </div>
+ 
+    </div>
+    <div class="confpass">
+    <label for=""> Confirm Password</label>
+    <input type="password" id="confpass">
+    
+    <div class="invalidpassconf" id="invalidpassconf">
+       please insert the correct password
+    </div>
+ 
+    </div>
+    <div class="phone">
+    <label for="">Phone number</label>
+    <input type="text" id="numb">
+    <div class="invalidphnum" id="invalidphnum" onkeyup="validatephone">
+        please insert the valid Phone number
+    </div>
+    </div>
+    <div class="img">
+    <label for="file" style="cursor: pointer;" >User file</label>
+    <input type="file" id="image"   >
+    <div class="invalidfile" id="invalidfile">
+        please insert file  with image extension jpg or png only
+    </div>
+    </div>
+    
+ <button id="btnform">submit</button> 
+ <a href=""> Already Have account? log in</a>
+</form>
+</div>   
+<script src="dom.js"></script> 
+</body> 
+</html>

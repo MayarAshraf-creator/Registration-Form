@@ -1,0 +1,80 @@
+div.titlee{text-align: center;
+color: white;
+font-weight: 500;}
+body{
+  background-color:#F6B3BF ;
+   
+}
+form{
+    background-color:white;
+    border: 1px #F6B3BF;
+    box-sizing: border-box;
+}
+input[type=text]:focus {transition: width 0.4s ease-in-out;
+  background-color: rgb(6, 211, 115); 
+}
+
+label{font-weight: bold;
+    color: #999;
+}
+div.form-container{
+    display: grid;
+    justify-content: center;
+    position: relative;}
+
+div input{border-radius: 23.5px;
+    margin-top: 1rem;
+outline: none;
+border: solid;
+border-color:#F6B3BF;
+background: #f7f7f7;
+margin-bottom: 20px;
+width: 30rem;
+height: 2rem;
+}
+.invalidemail{display: none;
+color: red;
+padding-right: 1rem;}
+
+.invalidfname{display: none;
+    color: red;}
+.invalidlname{display: none;
+    color: red;}
+.invalidpass{display: none;
+    color: red;}
+.invalidpassconf{display: none;
+    color: red;}
+.invalidphnum{display: none;
+    color: red;
+}
+
+
+button{border-radius: 12px;
+border-color: #F6B3BF;
+width: 50%;
+margin-inline: 8rem;
+align-items: center;
+height: 3rem;
+color: white;
+cursor: pointer;
+font-size: xx-large;
+font-size: large;
+text-transform: uppercase;
+background: #ff9a9c;}
+
+button:hover {background-color: green;}
+a {display: block;
+    color: red;
+    margin-inline: 12rem;
+    padding-top: 2rem;
+    font-size: large;
+
+}
+.invalidfile{
+
+    display: none;
+    color: red;
+}
+div .image{
+    padding-right: 4rem;
+}
